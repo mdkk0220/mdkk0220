@@ -16,6 +16,13 @@
 - 계정 잠금 같은 위험한 조치는 승인 게이트를 거치고, 승인이 없으면 실행하지 않고 기록만 남깁니다
 - `Python` `Flask` `Gemini API` `requests`
 
+### 🧭 [AI-agent](https://github.com/mdkk0220/AI-agent)
+**채용 공고 데이터 기반 취업 준비 에이전트 (진행 중)**
+채용 공고를 매일 모으고, 내 기술과 맞는 공고를 골라 주고, 자소서 초안까지 써 주는 에이전트입니다.
+- 흐름: 공고 수집 → 분석 · 맞춤 점수 → 자소서 초안 → 팩트체크 → 사람 승인
+- 프로필에 없는 경험을 지어낸 문장은 팩트체크가 지우고, 승인 후에도 제출하지 않고 저장만 합니다
+- `Python` `LangGraph` `Streamlit` `SQLite` `REST API`
+
 ### 🦵 [knee-oa-classifier](https://github.com/mdkk0220/knee-oa-classifier)
 **무릎 X-ray 관절염 등급 분류 (5인 팀 프로젝트)**
 ResNet50으로 Kellgren–Lawrence 0~4등급을 분류하고, Grad-CAM으로 모델이 본 부위를 시각화했습니다.
@@ -46,11 +53,14 @@ OSI 7계층 · TCP와 Wireshark 패킷 분석 · IP 서브넷 설계 · 스위�
 **프레임워크 · 라이브러리**
 ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
 ![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
+![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square)
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
 ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white)
 
 **도구 · 인프라**
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=flat-square&logo=wireshark&logoColor=white)
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
