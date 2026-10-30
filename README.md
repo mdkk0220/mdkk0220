@@ -5,10 +5,15 @@
   로그를 읽고, 위험을 판단하고, 사람이 결정할 수 있게 돕는 도구를 만듭니다.
 </p>
 
-<p align="center">
-  건양대학교 의료IT공학과 졸업예정 · SK ALEPH 부트캠프 수강 중 (~2026.12.09)<br>
-  ✉️ audrby2000@gmail.com · audrby2000@naver.com
-</p>
+<div align="center">
+
+| | |
+|:---|:---|
+| **학력** | 건양대학교 의료IT공학과 (졸업예정) |
+| **교육** | SK ALEPH 부트캠프 (2026.09.08 ~ 12.09 수료 예정) |
+| **연락처** | audrby2000@gmail.com · audrby2000@naver.com |
+
+</div>
 
 ---
 
