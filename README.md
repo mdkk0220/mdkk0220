@@ -48,7 +48,7 @@ BMI · 기초대사량을 계산하고 식단과 운동을 안내하는 Android 
 
 **[SHydent](https://github.com/mdkk0220/Shydent)** · 6인 팀 · 2025.03 ~ 06
 수업 중 학생이 교수에게 익명으로 질문하는 시스템. 교수용 Electron 앱에서 질문을 화면 위 오버레이로 띄웁니다 (Electron, Vite, Firebase)
-- 담당: 앱 개발
+- 담당: 학생용 앱 설계, GitHub 데이터 관리, 웹 · 앱 통합
 
 ---
 
