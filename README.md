@@ -46,7 +46,7 @@ ResNet50으로 Kellgren–Lawrence 0~4등급을 분류하고, Grad-CAM으로 모
 BMI · 기초대사량을 계산하고 식단과 운동을 안내하는 Android 앱 (Kotlin, Jetpack Compose, Gemini API)
 - 담당: 앱 구조 설계 주도, 식단 탭 · 운동 탭 기능 구현, Gemini API 연동
 
-**SHydent** · 6인 팀 · 2025.03 ~ 06
+**[SHydent](https://github.com/mdkk0220/Shydent)** · 6인 팀 · 2025.03 ~ 06
 수업 중 학생이 교수에게 익명으로 질문하는 시스템. 교수용 Electron 앱에서 질문을 화면 위 오버레이로 띄웁니다 (Electron, Vite, Firebase)
 - 담당: 앱 개발
 
@@ -54,11 +54,14 @@ BMI · 기초대사량을 계산하고 식단과 운동을 안내하는 Android 
 
 ## 📚 공부하고 있는 것
 
-**네트워크 · 보안** ([학습 기록](https://github.com/mdkk0220/security-agent-toolkit/tree/main/network_zt))
+**네트워크 · 보안** ([학습 기록](https://github.com/mdkk0220/security-agent-toolkit/tree/main/network_zt_2))
 OSI 7계층 · TCP와 Wireshark 패킷 분석 · IP 서브넷 설계 · 스위치 · 라우터 · VLAN · DNS 이상 탐지 · VPN · 방화벽 · 제로트러스트 · Docker
 
-**접근 제어** ([실습](https://github.com/mdkk0220/security-agent-toolkit/tree/main/access_control/config))
-역할 기반 접근 제어(RBAC) · 접근 로그 감사
+**접근 제어** ([실습](https://github.com/mdkk0220/security-agent-toolkit/tree/main/access_control_3))
+역할 기반 접근 제어(RBAC) · 예외 권한 · 권한 점검과 회수 · 주간 보고서
+
+**이상 탐지** ([실습](https://github.com/mdkk0220/security-agent-toolkit/tree/main/anomaly_detection_4), 진행 중)
+로그 정규화 · 지난 7일 기준 로그인 실패 · 트래픽 급증 탐지와 알림
 
 ---
 
