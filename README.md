@@ -60,8 +60,11 @@ OSI 7계층 · TCP와 Wireshark 패킷 분석 · IP 서브넷 설계 · 스위�
 **접근 제어** ([실습](https://github.com/mdkk0220/security-agent-toolkit/tree/main/access_control_3))
 역할 기반 접근 제어(RBAC) · 예외 권한 · 권한 점검과 회수 · 주간 보고서
 
-**이상 탐지** ([실습](https://github.com/mdkk0220/security-agent-toolkit/tree/main/anomaly_detection_4), 진행 중)
-로그 정규화 · 지난 7일 기준 로그인 실패 · 트래픽 급증 탐지와 알림
+**이상 탐지** ([실습](https://github.com/mdkk0220/security-agent-toolkit/tree/main/anomaly_detection_4))
+로그 정규화 · 규칙 탐지 · 여러 로그 연결 · 위험 점수 · 오탐 · 미탐 조정 · AI 요약 파이프라인
+
+**자동 대응(SOAR)** ([실습](https://github.com/mdkk0220/security-agent-toolkit/tree/main/soar_response_5), 진행 중)
+플레이북 · 승인 게이트 · 인시던트 상태 전이 · 감사 기록
 
 ---
 
