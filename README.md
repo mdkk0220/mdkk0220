@@ -22,13 +22,18 @@ VirtualBox에 Rocky Linux 9.8 · 8.10 서버를 구축하고, 네트워크 이�
 로그 수집 → 정규화 → 룰 탐지 → LLM 요약 · 판단 → 사람 승인 → 보고서 · 알림까지, 보안 관제의 한 사이클을 파이썬으로 구현했습니다. 기본 코드는 교육과정에서 제공받았습니다.
 - 핵심 원칙: **LLM은 고르기만 하고, 실행은 코드가 하고, 되돌리기 어려운 결정은 사람이 한다**
 - 계정 잠금 같은 위험한 조치는 승인 게이트를 거치고, 승인이 없으면 실행하지 않고 기록만 남깁니다
+- 단계별 실습
+  - [네트워크 · 제로트러스트](https://github.com/mdkk0220/security-agent-toolkit/tree/main/network_zt_2): 서브넷 설계 · VLAN · DNS · VPN · 방화벽 · Wireshark 패킷 분석
+  - [접근 제어](https://github.com/mdkk0220/security-agent-toolkit/tree/main/access_control_3): RBAC · 예외 권한 · 권한 점검과 회수
+  - [이상 탐지](https://github.com/mdkk0220/security-agent-toolkit/tree/main/anomaly_detection_4): 로그 정규화 · 규칙 탐지 · 위험 점수 · 오탐 · 미탐 조정
+  - [자동 대응(SOAR)](https://github.com/mdkk0220/security-agent-toolkit/tree/main/soar_response_5): 플레이북 · 승인 게이트 · 인시던트 상태 전이 (진행 중)
 - `Python` `Flask` `Gemini API` `requests`
 
 ### 🧭 [AI-agent](https://github.com/mdkk0220/AI-agent)
-**채용 공고 데이터 기반 취업 준비 에이전트 (진행 중)**
-채용 공고를 매일 모으고, 내 기술과 맞는 공고를 골라 주고, 자소서 초안까지 써 주는 에이전트입니다.
-- 흐름: 공고 수집 → 분석 · 맞춤 점수 → 자소서 초안 → 팩트체크 → 사람 승인
-- 프로필에 없는 경험을 지어낸 문장은 팩트체크가 지우고, 승인 후에도 제출하지 않고 저장만 합니다
+**채용 공고 수집 · 분석 자동화 에이전트 (진행 중)**
+채용 공고를 매일 수집해 기술 스택 기준으로 점수를 매기고, 문서 초안을 만든 뒤 팩트체크와 사람 승인을 거치는 LangGraph 파이프라인입니다.
+- 흐름: 공고 수집 → 분석 · 맞춤 점수 → 초안 생성 → 팩트체크 → 사람 승인
+- 근거 없는 문장은 팩트체크 단계에서 지우고, 승인 후에도 외부로 보내지 않고 저장만 합니다
 - `Python` `LangGraph` `Streamlit` `SQLite` `REST API`
 
 ### 🦵 [knee-oa-classifier](https://github.com/mdkk0220/knee-oa-classifier)
@@ -38,7 +43,7 @@ ResNet50으로 Kellgren–Lawrence 0~4등급을 분류하고, Grad-CAM으로 모
 - 테스트 결과: 정확도 0.72 · Macro-F1 0.73 · QWK 0.85 (테스트 이미지 3,052장)
 - `Python` `PyTorch` `OpenCV` `Grad-CAM` `Gradio`
 
-### 🤝 그 외 팀 프로젝트
+### 🤝 그 외 프로젝트
 
 **BodySync** · 4인 팀 · 2026.05 ~ 06
 BMI · 기초대사량을 계산하고 식단과 운동을 안내하는 Android 앱입니다.
@@ -50,24 +55,10 @@ BMI · 기초대사량을 계산하고 식단과 운동을 안내하는 Android 
 - 담당: 학생용 앱 설계, GitHub 데이터 관리, 웹 · 앱 통합
 - `Electron` `Vite` `Firebase`
 
----
-
-## 📚 공부하고 있는 것
-
-**네트워크 · 보안** ([학습 기록](https://github.com/mdkk0220/security-agent-toolkit/tree/main/network_zt_2))
-OSI 7계층 · TCP와 Wireshark 패킷 분석 · IP 서브넷 설계 · 스위치 · 라우터 · VLAN · DNS 이상 탐지 · VPN · 방화벽 · 제로트러스트 · Docker
-
-**접근 제어** ([실습](https://github.com/mdkk0220/security-agent-toolkit/tree/main/access_control_3))
-역할 기반 접근 제어(RBAC) · 예외 권한 · 권한 점검과 회수 · 주간 보고서
-
-**이상 탐지** ([실습](https://github.com/mdkk0220/security-agent-toolkit/tree/main/anomaly_detection_4))
-로그 정규화 · 규칙 탐지 · 여러 로그 연결 · 위험 점수 · 오탐 · 미탐 조정 · AI 요약 파이프라인
-
-**자동 대응(SOAR)** ([실습](https://github.com/mdkk0220/security-agent-toolkit/tree/main/soar_response_5), 진행 중)
-플레이북 · 승인 게이트 · 인시던트 상태 전이 · 감사 기록
-
-**웹 개발** ([SK-ALEPH](https://github.com/mdkk0220/SK-ALEPH))
-HTML · JavaScript부터 React 앱까지 웹 실습 5개 · Vercel 배포 · 버그 수정 과정을 검사 수치로 기록 (6/10 → 10/10)
+**[SK-ALEPH](https://github.com/mdkk0220/SK-ALEPH)** · 개인 · 2026.09 ~ 10
+SK ALEPH 부트캠프 웹 실습 5개 모음입니다. 정적 페이지부터 React 앱까지 만들고, 마지막에는 앱의 저장 버그를 고치는 과정을 검사 수치로 기록했습니다 (6/10 → 10/10).
+- 다섯 개 모두 Vercel에 배포
+- `HTML` `JavaScript` `React` `Vite` `Playwright`
 
 ---
 
