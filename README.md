@@ -10,19 +10,19 @@
 
 ## 🔭 대표 프로젝트
 
-### 🧭 [AI-agent](https://github.com/mdkk0220/AI-agent)
-**채용 공고 데이터 기반 취업 준비 에이전트 (진행 중)**
-채용 공고를 매일 모으고, 내 기술과 맞는 공고를 골라 주고, 자소서 초안까지 써 주는 에이전트입니다.
-- 흐름: 공고 수집 → 분석 · 맞춤 점수 → 자소서 초안 → 팩트체크 → 사람 승인
-- 프로필에 없는 경험을 지어낸 문장은 팩트체크가 지우고, 승인 후에도 제출하지 않고 저장만 합니다
-- `Python` `LangGraph` `Streamlit` `SQLite` `REST API`
-
 ### 🛡️ [security-agent-toolkit](https://github.com/mdkk0220/security-agent-toolkit)
 **보안 관제 자동화 에이전트 (SK ALEPH 실습)**
 로그 수집 → 정규화 → 룰 탐지 → LLM 요약 · 판단 → 사람 승인 → 보고서 · 알림까지, 보안 관제의 한 사이클을 파이썬으로 구현한 실습 프로젝트입니다. (SK ALEPH 부트캠프 수강 중, 기본 코드는 교육과정에서 제공받았습니다)
 - 핵심 원칙: **LLM은 고르기만 하고, 실행은 코드가 하고, 되돌리기 어려운 결정은 사람이 한다**
 - 계정 잠금 같은 위험한 조치는 승인 게이트를 거치고, 승인이 없으면 실행하지 않고 기록만 남깁니다
 - `Python` `Flask` `Gemini API` `requests`
+
+### 🧭 [AI-agent](https://github.com/mdkk0220/AI-agent)
+**채용 공고 데이터 기반 취업 준비 에이전트 (진행 중)**
+채용 공고를 매일 모으고, 내 기술과 맞는 공고를 골라 주고, 자소서 초안까지 써 주는 에이전트입니다.
+- 흐름: 공고 수집 → 분석 · 맞춤 점수 → 자소서 초안 → 팩트체크 → 사람 승인
+- 프로필에 없는 경험을 지어낸 문장은 팩트체크가 지우고, 승인 후에도 제출하지 않고 저장만 합니다
+- `Python` `LangGraph` `Streamlit` `SQLite` `REST API`
 
 ### 🦵 [knee-oa-classifier](https://github.com/mdkk0220/knee-oa-classifier)
 **무릎 X-ray 관절염 등급 분류 (5인 팀 프로젝트)**
@@ -79,6 +79,15 @@ OSI 7계층 · TCP와 Wireshark 패킷 분석 · IP 서브넷 설계 · 스위�
 
 ## 🛠️ 기술 스택
 
+**인프라 · 도구**
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=flat-square&logo=wireshark&logoColor=white)
+![Rocky Linux](https://img.shields.io/badge/Rocky_Linux-10B981?style=flat-square&logo=rockylinux&logoColor=white)
+![VirtualBox](https://img.shields.io/badge/VirtualBox-183A61?style=flat-square&logo=virtualbox&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
+
 **언어**
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
@@ -96,12 +105,3 @@ OSI 7계층 · TCP와 Wireshark 패킷 분석 · IP 서브넷 설계 · 스위�
 ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black)
 ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
 ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
-
-**도구 · 인프라**
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=flat-square&logo=wireshark&logoColor=white)
-![Rocky Linux](https://img.shields.io/badge/Rocky_Linux-10B981?style=flat-square&logo=rockylinux&logoColor=white)
-![VirtualBox](https://img.shields.io/badge/VirtualBox-183A61?style=flat-square&logo=virtualbox&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
