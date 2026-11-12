@@ -39,7 +39,7 @@ VirtualBox에 Rocky Linux 9.8 · 8.10 서버를 구축하고, 네트워크 이�
 ### 🦵 [knee-oa-classifier](https://github.com/mdkk0220/knee-oa-classifier)
 **무릎 X-ray 관절염 등급 분류 (5인 팀 프로젝트)**
 ResNet50으로 Kellgren–Lawrence 0~4등급을 분류하고, Grad-CAM으로 모델이 본 부위를 시각화했습니다.
-- 담당: 저장소 구조 설계 · Git 관리 · ResNet50 모델 구현
+- 담당: 저장소 구조 설계 · Git 관리 · ResNet50 모델 구현 · 학습, 추론 파이프라인 · 서버 연동
 - 테스트 결과: 정확도 0.72 · Macro-F1 0.73 · QWK 0.85 (테스트 이미지 3,052장)
 - `Python` `PyTorch` `OpenCV` `Grad-CAM` `Gradio`
 
