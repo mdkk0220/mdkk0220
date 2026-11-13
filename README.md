@@ -11,11 +11,13 @@
 ## 🔭 대표 프로젝트
 
 ### 🖧 [VMS-hw](https://github.com/mdkk0220/VMS-hw)
-**가상화 환경 인프라 실습 (진행 중)**
-VirtualBox에 Rocky Linux 9.8 · 8.10 서버를 구축하고, 네트워크 이중화(bonding)부터 WEB · DB 이중화, 백업 자동화까지 단계별로 실습하고 있습니다.
+**가상화 환경 인프라 실습**
+VirtualBox에 Rocky Linux 9.8 · 8.10 서버를 구축하고, 네트워크 이중화(bonding)부터 WEB · DB 이중화, 백업 자동화까지 단계별로 실습했습니다.
 - 서버 두 대에 bond를 두 개씩 구성하고, 랜선 하나를 끊어도 ping 손실 1~2개로 넘어가는 것을 확인했습니다
+- Keepalived VIP로 웹을 이중화하고(nginx 장애 시 약 4초 전환), Rocky 9.8 두 대와 8.10 한 대를 Galera 3노드로 묶어 한 대가 빠져도 쓰기가 계속되는 것을 확인했습니다
+- 백업 스크립트를 cron으로 매일 돌리고, 백업 서버에서 체크섬을 다시 계산해 검증한 뒤 파일 · DB 복구까지 시험했습니다
 - 겪은 장애와 일부러 낸 장애를 증상 · 원인 · 조치 · 재발 방지 순서로 기록합니다
-- `Rocky Linux` `VirtualBox` `nmcli` `Bonding` `Shell Script`
+- `Rocky Linux` `VirtualBox` `nmcli` `Bonding` `Keepalived` `MariaDB Galera` `Shell Script`
 
 ### 🛡️ [security-agent-toolkit](https://github.com/mdkk0220/security-agent-toolkit)
 **보안 관제 자동화 에이전트 (SK ALEPH 실습)**
