@@ -20,7 +20,6 @@ VirtualBox에 Rocky Linux 9.8 · 8.10 서버를 구축하고, 네트워크 이�
 ### 🛡️ [security-agent-toolkit](https://github.com/mdkk0220/security-agent-toolkit)
 **보안 관제 자동화 에이전트 (SK ALEPH 실습)**
 로그 수집 → 정규화 → 룰 탐지 → LLM 요약 · 판단 → 사람 승인 → 보고서 · 알림까지, 보안 관제의 한 사이클을 파이썬으로 구현했습니다. 기본 코드는 교육과정에서 제공받았습니다.
-- 핵심 원칙: **LLM은 고르기만 하고, 실행은 코드가 하고, 되돌리기 어려운 결정은 사람이 한다**
 - 계정 잠금 같은 위험한 조치는 승인 게이트를 거치고, 승인이 없으면 실행하지 않고 기록만 남깁니다
 - 단계별 실습
   - [네트워크 · 제로트러스트](https://github.com/mdkk0220/security-agent-toolkit/tree/main/network_zt_2): 서브넷 설계 · VLAN · DNS · VPN · 방화벽 · Wireshark 패킷 분석
